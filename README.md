@@ -1,3 +1,40 @@
+# Shopping App
+
+## Description
+
+This project displays a webpage using React and does the following:
+- Can change currency using selector (will update in all areas of webpage) where it is displayed. 
+- Can select an item, and add/reduce the number of items. This will update the webpage in the 'Quantity', 'Items Price' for the item and update the 'Cart Value'.
+- Can remove all items from the Cart. 
+
+## Getting Started
+
+### Dependencies
+- Tested on Windows 10
+- Used NPM to install packages required to run server. Download at: https://nodejs.org/en/download
+- Tested on VSCode
+
+### Installation
+- Download Node.JS and NPM: https://nodejs.org/en/download
+- Download project from GitHub
+- Open project folder in VSCode
+- Open a new terminal (Terminal --> New Termainl)
+- Ensure you are in the project folder
+- Run the following command to install all the packages that are required for running the server (without start and end quotes):
+  "npm install --s"
+
+### Executing the Program
+- Open project folder in VSCode
+- Open a new terminal (Terminal --> New Termainl)
+- Start the server using the below command in the terminal (without start and end quotes):
+  "npm start"
+- This will launch the website. You can do the following:
+     - Change the currency in the 'Location' selector. This will update the currency symbol across the webpage.
+     - In the 'Add Items' section you can select 'Items', then determine to add/reduce in the 'Quantity' selector and input a number in the text box. Click 'Save'
+          - This will update the webpage in the 'Quantity', 'Items Price' for the item and update the 'Cart Value'.
+     - Click the 'X' item in each row to clear quantity of the item down to 0. Cart Value will be updated accordingly. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
